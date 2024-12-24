@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FLATICON ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-straight/css/uicons-regular-straight.css"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Ecommerce Website</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+      <div class="header__top">
+        <div class="header__container container">
+          <div class="header__contact">
+            <span>+01068154059</span>
+            <span>للتواصل</span>
+          </div>
+          <p class="header__alert-news">
+            عروض القيم العليا ​​- وفر المزيد من القسائم
+          </p>
+          <a href="login-register.html" class="header__top-action">
+            تسجيل الدخول / التسجيل
+          </a>
+        </div>
+      </div>
+
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">
+          <img
+            class="nav__logo-img"
+            src="assets/img/WhatsApp Image 2024-12-22 at 19.52.37_7d00ef9d.jpg"
+            alt="website logo"
+          />
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <div class="nav__menu-top">
+            <a href="index.html" class="nav__menu-logo">
+              <img src="./assets/img/logo.svg" alt="">
+            </a>
+            <div class="nav__close" id="nav-close">
+              <i class="fi fi-rs-cross-small"></i>
+            </div>
+          </div>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="http://127.0.0.1:5500/index1.html" class="nav__link active-link">الصفحه الرئيسيه</a>
+            </li>
+           
+            <li class="nav__item">
+              <a href="accounts.html" class="nav__link">حسابي</a>
+            </li>
+           
+            <li class="nav__item">
+              <a href="login-register.html" class="nav__link">تسجيل الدخول</a>
+            </li>
+          </ul>
+          <div class="searchBox">
+
+            <input class="searchInput" type="text" name="" placeholder="Search something">
+            <button class="searchButton" href="#">
+                   
+                  
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29" fill="none">
+  <g clip-path="url(#clip0_2_17)">
+    <g filter="url(#filter0_d_2_17)">
+      <path d="M23.7953 23.9182L19.0585 19.1814M19.0585 19.1814C19.8188 18.4211 20.4219 17.5185 20.8333 16.5251C21.2448 15.5318 21.4566 14.4671 21.4566 13.3919C21.4566 12.3167 21.2448 11.252 20.8333 10.2587C20.4219 9.2653 19.8188 8.36271 19.0585 7.60242C18.2982 6.84214 17.3956 6.23905 16.4022 5.82759C15.4089 5.41612 14.3442 5.20435 13.269 5.20435C12.1938 5.20435 11.1291 5.41612 10.1358 5.82759C9.1424 6.23905 8.23981 6.84214 7.47953 7.60242C5.94407 9.13789 5.08145 11.2204 5.08145 13.3919C5.08145 15.5634 5.94407 17.6459 7.47953 19.1814C9.01499 20.7168 11.0975 21.5794 13.269 21.5794C15.4405 21.5794 17.523 20.7168 19.0585 19.1814Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" shape-rendering="crispEdges"></path>
+    </g>
+  </g>
+  <defs>
+    <filter id="filter0_d_2_17" x="-0.418549" y="3.70435" width="29.7139" height="29.7139" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
+      <feOffset dy="4"></feOffset>
+      <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+      <feComposite in2="hardAlpha" operator="out"></feComposite>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2_17"></feBlend>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_17" result="shape"></feBlend>
+    </filter>
+    <clipPath id="clip0_2_17">
+      <rect width="28.0702" height="28.0702" fill="white" transform="translate(0.403503 0.526367)"></rect>
+    </clipPath>
+  </defs>
+</svg>
+          </div>
+        </div>
+          </div>
+        </div>
+        </div>
+        <div class="header__user-actions">
+          <a href="wishlist.html" class="header__action-btn" title="Wishlist">
+            <img src="assets/img/icon-heart.svg" alt="" />
+            <span class="count">3</span>
+          </a>
+          <a href="cart.html" class="header__action-btn" title="Cart">
+            <img src="assets/img/icon-cart.svg" alt="" />
+            <span class="count">3</span>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== BREADCRUMB ===============-->
+      <section class="breadcrumb">
+        <ul class="breadcrumb__list flex container">
+          <li><a href="index.html" class="breadcrumb__link">الصفحه الرئيسيه</a></li>
+          <li><span class="breadcrumb__link"></span>></li>
+          <li><span class="breadcrumb__link">موضة</span></li>
+          <li><span class="breadcrumb__link"></span>></li>
+          <li><span class="breadcrumb__link">قميص مخطط</span></li>
+        </ul>
+      </section>
+
+      <!--=============== DETAILS ===============-->
+      <section class="details section--lg">
+        <div class="details__container container grid">
+          <div class="details__group">
+            <img
+              src="assets/img/Screenshot 2024-12-23 095447.png"
+              alt=""
+              class="details__img"
+            />
+            <div class="details__small-images grid">
+             
+             
+            </div>
+          </div>
+          <div class="details__group">
+            <h3 class="details__title">شورت سباحة أزرق شيك بخطوط حمرا بيضا، مثالي للصيف والمرح في الماء!</h3>
+            <p class="details__brand">ماركة: <span></span></p>
+            <div class="details__price flex">
+              <span class="new__price">250جنية</span>
+              <span class="old__price">300جنية</span>
+              <span class="save__price">25% تخفيض</span>
+            </div>
+            <p class="short__description">
+              من المهم جدًا أن يهتم العميل باحتياجات العميل.
+              في المتعة، الطيران. عندما يكون لدينا خيار رفض الإطراء،
+              أود أن أفتحه للمخترع، من هو المسؤول الأكبر عنه؟ خيار
+              وإذا لم تكن له فهو يعيق المخترع بسبب اختيارهم
+              أليس هذا الخطأ أشد خطورة؟
+            </p>
+            <ul class="products__list">
+              <li class="list__item flex">
+                <i class="fi-rs-crown"></i> ضمان لمدة سنة على ماركة H & M
+              </li>
+              <li class="list__item flex">
+                <i class="fi-rs-refresh"></i> سياسة الإرجاع خلال 30 يومًا
+              </li>
+              <li class="list__item flex">
+                <i class="fi-rs-credit-card"></i> متاح الدفع عند الاستلام
+              </li>
+            </ul>
+            <div class="details__color flex">
+              <span class="details__color-title">لون</span>
+              <ul class="color__list">
+                <li>
+                  <a
+                    href="#"
+                    class="color__link"
+                    style="background-color: hsl(37, 100%, 65%)"
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="color__link"
+                    style="background-color: hsl(353, 100%, 65%)"
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="color__link"
+                    style="background-color: hsl(49, 100%, 60%)"
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="color__link"
+                    style="background-color: hsl(304, 100%, 78%)"
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="color__link"
+                    style="background-color: hsl(126, 61%, 52%)"
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="details__size flex">
+              <span class="details__size-title">مقاس</span>
+              <ul class="size__list">
+                <li>
+                  <a href="#" class="size__link size-active">M</a>
+                </li>
+                <li>
+                  <a href="#" class="size__link">L</a>
+                </li>
+                <li>
+                  <a href="#" class="size__link">XL</a>
+                </li>
+                <li>
+                  <a href="#" class="size__link">XXL</a>
+                </li>
+              </ul>
+            </div>
+            <div class="details__action">
+              <input type="number" class="quantity" value="3" />
+              <a href="#" class="btn btn--sm">أضف إي العربة</a>
+              <a href="#" class="details__action-btn">
+                <i class="fi fi-rs-heart"></i>
+              </a>
+            </div>
+            <ul class="details__meta">
+              <li class="meta__list flex"><span>رقم الصنف:</span>FWM15VKT</li>
+              <li class="meta__list flex">
+                <span>العلامات:</span>ملابس، نساء، فستان
+              </li>
+              <li class="meta__list flex">
+                <span>التوفر:</span>8 عناصر في المخزون
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== DETAILS TAB ===============-->
+      <section class="details__tab container">
+        <div class="detail__tabs">
+          <span class="detail__tab active-tab" data-target="#info">
+            معلومات إضافية
+          </span>
+          <span class="detail__tab" data-target="#reviews">التعليقات(3)</span>
+        </div>
+        <div class="details__tabs-content">
+          <div class="details__tab-content active-tab" content id="info">
+            <table class="info__table">
+              <tr>
+                <th>الوقوف</th>
+                <td>35 بوصة طول × 24 بوصة عرض × 37-45 بوصة ارتفاع (عجلة من الأمام إلى الخلف)</td>
+              </tr>
+              <tr>
+                <th>مطوية (بدون عجلات))</th>
+                <td>32.5 بوصة طول × 18.5 بوصة عرض × 16.5 بوصة ارتفاع</td>
+              </tr>
+              <tr>
+                <th>مطوية (بدون عجلات)</th>
+                <td>32.5 بوصة طول × 24 بوصة عرض × 18.5 بوصة ارتفاع</td>
+              </tr>
+              <tr>
+                <th>مرور الباب</th>
+                <td>24</td>
+              </tr>
+              <tr>
+                <th>الإطار</th>
+                <td>الألومنيوم</td>
+              </tr>
+              <tr>
+                <th>الوزن (بدون عجلات)</th>
+                <td>20 رطل</td>
+              </tr>
+              <tr>
+                <th>سعة الوزن</th>
+                <td>60 رطل</td>
+              </tr>
+              <tr>
+                <th>عرض</th>
+                <td>24</td>
+              </tr>
+              <tr>
+                <th>ارتفاع المقبض (من الأرض إلى المقبض)</th>
+                <td>37-45</td>
+              </tr>
+              <tr>
+                <th>عجلات</th>
+                <td>مداس هوائي عريض مقاس 12 بوصة</td>
+              </tr>
+              <tr>
+                <th>ارتفاع ظهر المقعد</th>
+                <td>21.5</td>
+              </tr>
+              <tr>
+                <th>مساحة الرأس (داخل المظلة)</th>
+                <td>25"</td>
+              </tr>
+              <tr>
+                <th>لون</th>
+                <td>الأسود، الأزرق، الأحمر، الأبيض</td>
+              </tr>
+              <tr>
+                <th>مقاس</th>
+                <td>M, S</td>
+              </tr>
+            </table>
+          </div>
+          <div class="details__tab-content" content id="reviews">
+            <div class="reviews__container grid">
+              <div class="review__single">
+                <div>
+                  <img
+                    src="./assets/img/avatar-1.jpg"
+                    alt=""
+                    class="review__img"
+                  />
+                  <h4 class="review__title">جاكي شان</h4>
+                </div>
+                <div class="review__data">
+                  <div class="review__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <p class="review__description">
+                    شكرا لك، الشحن سريع جدًا من بولندا خلال 3 أيام فقط.
+                  </p>
+                  <span class="review__date">4 ديسمبر 2022 الساعة 3:12 مساءً</span>
+                </div>
+              </div>
+              <div class="review__single">
+                <div>
+                  <img
+                    src="./assets/img/avatar-2.jpg"
+                    alt=""
+                    class="review__img"
+                  />
+                  <h4 class="review__title">مريم ج.س</h4>
+                </div>
+                <div class="review__data">
+                  <div class="review__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <p class="review__description">
+                    سعر منخفض رائع ويعمل بشكل جيد
+                  </p>
+                  <span class="review__date">23 أغسطس 2022 الساعة 19:45 مساءً</span>
+                </div>
+              </div>
+              <div class="review__single">
+                <div>
+                  <img
+                    src="./assets/img/avatar-3.jpg"
+                    alt=""
+                    class="review__img"
+                  />
+                  <h4 class="review__title">موه بنز</h4>
+                </div>
+                <div class="review__data">
+                  <div class="review__rating">
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                    <i class="fi fi-rs-star"></i>
+                  </div>
+                  <p class="review__description">
+                    أصلية وجميلة، أحب هذه السماعات أكثر من أي وقت مضى، فهي سماعات رائعة.
+                  </p>
+                  <span class="review__date">2 مارس 2021 الساعة 10:01 صباحًا</span>
+                </div>
+              </div>
+            </div>
+            <div class="review__form">
+              <h4 class="review__form-title">أضف مراجعة</h4>
+              <div class="rate__product">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <form action="" class="form grid">
+                <textarea
+                  class="form__input textarea"
+                  placeholder="Write Comment"
+                ></textarea>
+                <div class="form__group grid">
+                  <input type="text" placeholder="Name" class="form__input">
+                  <input type="email" placeholder="Email" class="form__input">
+                </div>
+                <div class="form__btn">
+                  <button class="btn">إرسال المراجعة</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== PRODUCTS ===============-->
+      <section class="products container section--lg">
+        <h3 class="section__title"><span> ذات صلة</span> منتجات</h3>
+        <div class="products__container grid">
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img
+                  src="assets/img/product-1-1.jpg"
+                  alt=""
+                  class="product__img default"
+                />
+                <img
+                  src="assets/img/product-1-2.jpg"
+                  alt=""
+                  class="product__img hover"
+                />
+              </a>
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+                <a
+                  href="#"
+                  class="action__btn"
+                  aria-label="Add to Wishlist"
+                >
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+              
+            </div>
+            <div class="product__content">
+              <span class="product__category">الملابس</span>
+              <a href="details.html">
+                <h3 class="product__title">قميص منقوش ملون</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">جنية400</span>
+                <span class="old__price">جنية500</span>
+              </div>
+              <a
+                href="#"
+                class="action__btn cart__btn"
+                aria-label="Add To Cart"
+              >
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
+            </div>
+          </div>
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img
+                  src="assets/img/product-2-1.jpg"
+                  alt=""
+                  class="product__img default"
+                />
+                <img
+                  src="assets/img/product-2-2.jpg"
+                  alt=""
+                  class="product__img hover"
+                />
+              </a>
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+                <a
+                  href="#"
+                  class="action__btn"
+                  aria-label="Add to Wishlist"
+                >
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+             
+            </div>
+            <div class="product__content">
+              <span class="product__category">الملابس</span>
+              <a href="details.html">
+                <h3 class="product__title">قميص منقوش ملون</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">جنية450</span>
+                <span class="old__price">جنية500</span>
+              </div>
+              <a
+                href="#"
+                class="action__btn cart__btn"
+                aria-label="Add To Cart"
+              >
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
+            </div>
+          </div>
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img
+                  src="assets/img/product-3-1.jpg"
+                  alt=""
+                  class="product__img default"
+                />
+                <img
+                  src="assets/img/product-3-2.jpg"
+                  alt=""
+                  class="product__img hover"
+                />
+              </a>
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+                <a
+                  href="#"
+                  class="action__btn"
+                  aria-label="Add to Wishlist"
+                >
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+             
+            </div>
+            <div class="product__content">
+              <span class="product__category">الملابس</span>
+              <a href="details.html">
+                <h3 class="product__title">حذاء رياضي</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">جنية600</span>
+                <span class="old__price">جنية700</span>
+              </div>
+              <a
+                href="#"
+                class="action__btn cart__btn"
+                aria-label="Add To Cart"
+              >
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
+            </div>
+          </div>
+          <div class="product__item">
+            <div class="product__banner">
+              <a href="details.html" class="product__images">
+                <img
+                  src="assets/img/product-4-1.jpg"
+                  alt=""
+                  class="product__img default"
+                />
+                <img
+                  src="assets/img/product-4-2.jpg"
+                  alt=""
+                  class="product__img hover"
+                />
+              </a>
+              <div class="product__actions">
+                <a href="#" class="action__btn" aria-label="Quick View">
+                  <i class="fi fi-rs-eye"></i>
+                </a>
+                <a
+                  href="#"
+                  class="action__btn"
+                  aria-label="Add to Wishlist"
+                >
+                  <i class="fi fi-rs-heart"></i>
+                </a>
+                <a href="#" class="action__btn" aria-label="Compare">
+                  <i class="fi fi-rs-shuffle"></i>
+                </a>
+              </div>
+              
+            </div>
+            <div class="product__content">
+              <span class="product__category">الملابس</span>
+              <a href="details.html">
+                <h3 class="product__title">بنطلون منقوش ملون</h3>
+              </a>
+              <div class="product__rating">
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+                <i class="fi fi-rs-star"></i>
+              </div>
+              <div class="product__price flex">
+                <span class="new__price">500جنية</span>
+                <span class="old__price">600جنية</span>
+              </div>
+              <a
+                href="#"
+                class="action__btn cart__btn"
+                aria-label="Add To Cart"
+              >
+                <i class="fi fi-rs-shopping-bag-add"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== NEWSLETTER ===============-->
+      <section class="newsletter section">
+        <div class="newsletter__container container grid">
+          <h3 class="newsletter__title flex">
+            <img
+              src="./assets/img/icon-email.svg"
+              alt=""
+              class="newsletter__icon"
+            />
+            تسجيل الدخول إلى النشرة الإخبارية
+          </h3>
+          <p class="newsletter__description">
+            ... واحصل على قسيمة بقيمة 25 دولارًا للتسوق الأول.
+          </p>
+          <form action="" class="newsletter__form">
+            <input
+              type="text"
+              placeholder="Enter Your Email"
+              class="newsletter__input"
+            />
+            <button type="submit" class="newsletter__btn">يشترك</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer container">
+      <div class="footer__container grid">
+        <div class="footer__content">
+          <a href="index.html" class="footer__logo">
+            <img src="assets/img/WhatsApp Image 2024-12-22 at 19.52.37_7d00ef9d.jpg" alt="" class="footer__logo-img" />
+          </a>
+          <h4 class="footer__subtitle">اتصال</h4>
+          <p class="footer__description">
+            <span>عنوان:</span> 13 طريق تلمسان، شارع 32، باب وهرن
+          </p>
+          <p class="footer__description">
+            <span>هاتف:</span> +10168154059 /01063995411
+          </p>
+          <p class="footer__description">
+            <span>ساعات:</span> 10:00 - 18:00، الإثنين - السبت
+          </p>
+          <div class="footer__social">
+            <h4 class="footer__subtitle">اتبعني</h4>
+            <div class="footer__links flex">
+              <a href="#">
+                <img
+                  src="./assets/img/icon-facebook.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="./assets/img/icon-twitter.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="./assets/img/icon-instagram.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="./assets/img/icon-pinterest.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="./assets/img/icon-youtube.svg"
+                  alt=""
+                  class="footer__social-icon"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__content">
+          <h3 class="footer__title">العنوان</h3>
+          <ul class="footer__links">
+            <li><a href="#" class="footer__link">معلومات عنا</a></li>
+            <li><a href="#" class="footer__link">معلومات التسليم</a></li>
+            <li><a href="#" class="footer__link">سياسة الخصوصية</a></li>
+            <li><a href="#" class="footer__link">الشروط والأحكام</a></li>
+            <li><a href="#" class="footer__link">اتصل بنا</a></li>
+            <li><a href="#" class="footer__link">مركز الدعم</a></li>
+          </ul>
+        </div>
+        <div class="footer__content">
+          <h3 class="footer__title">حسابي</h3>
+          <ul class="footer__links">
+            <li><a href="#" class="footer__link">تسجيل الدخول</a></li>
+            <li><a href="#" class="footer__link">عرض عربة التسوق</a></li>
+            <li><a href="#" class="footer__link">قائمة أمنياتي</a></li>
+            <li><a href="#" class="footer__link">تتبع طلبي</a></li>
+            <li><a href="#" class="footer__link">يساعد</a></li>
+            <li><a href="#" class="footer__link">طلب</a></li>
+          </ul>
+        </div>
+        <div class="footer__content">
+          <h3 class="footer__title">بوابات الدفع الآمنة</h3>
+          <img
+            src="./assets/img/payment-method.png"
+            alt=""
+            class="payment__img"
+          />
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="copyright">&copy; 2024 إيفارا. جميع الحقوق محفوظة</p>
+        <span class="designer">مصمم بواسطة -Samy Alamir</span>
+      </div>
+    </footer>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
